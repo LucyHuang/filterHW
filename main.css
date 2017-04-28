@@ -56,6 +56,11 @@ table {
 
 /* BEGIN YOUR STYLES HERE */
 
+body {
+    line-height: 1.2em;
+    padding: 0.5em;
+}
+
 .item {
     display: none;
 }
@@ -65,7 +70,20 @@ table {
 }
 
 .filter.active {
-    opacity: 0.5;
+    /*opacity: 0.5;*/
+    background-color: lightgreen;
+}
+
+.resetbutton {
+    background-color: transparent;
+}
+
+.resetbutton.active {
+    background-color: transparent
+}
+
+button {
+    background-color: transparent;
 }
 
 img {
